@@ -4,7 +4,14 @@
   "description": "self-hosted cloudflare: run void apps on workers + durable objects you own (wip)",
   "license": "MIT",
   "author": "SgtPooki",
-  "repository": "github:SgtPooki/fogd",
-  "bin": { "fogd": "bin/fogd.js" },
-  "files": ["bin"]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SgtPooki/fogd.git"
+  },
+  "bin": {
+    "fogd": "bin/fogd.js"
+  },
+  "files": [
+    "bin"
+  ]
 }
